@@ -1,0 +1,264 @@
+{
+  "version": "cnn-mnist-v2",
+  "generatedAt": "2026-11-01T12:56:22.466Z",
+  "dataset": "MNIST (60,000 train / 10,000 test)",
+  "config": {
+    "filters": 16,
+    "filters2": 32,
+    "hiddenUnits": 64,
+    "epochs": 8,
+    "trainSamples": 60000,
+    "testSamples": 10000,
+    "batchSize": 32,
+    "learningRate": 0.025,
+    "momentum": 0.9,
+    "optimizer": "Momentum SGD + Cosine LR",
+    "activation": "ReLU"
+  },
+  "parameters": 56970,
+  "history": [
+    {
+      "epoch": 1,
+      "trainLoss": 0.15244,
+      "trainAccuracy": 0.95272,
+      "testLoss": 0.05492,
+      "testAccuracy": 0.982,
+      "seconds": 53
+    },
+    {
+      "epoch": 2,
+      "trainLoss": 0.05817,
+      "trainAccuracy": 0.98232,
+      "testLoss": 0.02839,
+      "testAccuracy": 0.9902,
+      "seconds": 48
+    },
+    {
+      "epoch": 3,
+      "trainLoss": 0.04067,
+      "trainAccuracy": 0.98732,
+      "testLoss": 0.03366,
+      "testAccuracy": 0.9883,
+      "seconds": 49
+    },
+    {
+      "epoch": 4,
+      "trainLoss": 0.03162,
+      "trainAccuracy": 0.99027,
+      "testLoss": 0.02766,
+      "testAccuracy": 0.9904,
+      "seconds": 50
+    },
+    {
+      "epoch": 5,
+      "trainLoss": 0.02211,
+      "trainAccuracy": 0.99307,
+      "testLoss": 0.02324,
+      "testAccuracy": 0.9921,
+      "seconds": 51
+    },
+    {
+      "epoch": 6,
+      "trainLoss": 0.01595,
+      "trainAccuracy": 0.99512,
+      "testLoss": 0.02189,
+      "testAccuracy": 0.9929,
+      "seconds": 53
+    },
+    {
+      "epoch": 7,
+      "trainLoss": 0.01406,
+      "trainAccuracy": 0.99595,
+      "testLoss": 0.01991,
+      "testAccuracy": 0.9928,
+      "seconds": 55
+    },
+    {
+      "epoch": 8,
+      "trainLoss": 0.01251,
+      "trainAccuracy": 0.99628,
+      "testLoss": 0.01964,
+      "testAccuracy": 0.9931,
+      "seconds": 57
+    }
+  ],
+  "final": {
+    "testAccuracy": 0.9931,
+    "testLoss": 0.019635366147481285,
+    "perClass": [
+      {
+        "digit": 0,
+        "recall": 0.9959183673469387,
+        "support": 980
+      },
+      {
+        "digit": 1,
+        "recall": 0.9964757709251101,
+        "support": 1135
+      },
+      {
+        "digit": 2,
+        "recall": 0.9951550387596899,
+        "support": 1032
+      },
+      {
+        "digit": 3,
+        "recall": 0.994059405940594,
+        "support": 1010
+      },
+      {
+        "digit": 4,
+        "recall": 0.9959266802443992,
+        "support": 982
+      },
+      {
+        "digit": 5,
+        "recall": 0.992152466367713,
+        "support": 892
+      },
+      {
+        "digit": 6,
+        "recall": 0.9864300626304802,
+        "support": 958
+      },
+      {
+        "digit": 7,
+        "recall": 0.9922178988326849,
+        "support": 1028
+      },
+      {
+        "digit": 8,
+        "recall": 0.9928131416837782,
+        "support": 974
+      },
+      {
+        "digit": 9,
+        "recall": 0.9890981169474727,
+        "support": 1009
+      }
+    ],
+    "confusion": [
+      [
+        976,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1131,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1027,
+        0,
+        1,
+        0,
+        0,
+        3,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1004,
+        0,
+        2,
+        0,
+        0,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        978,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      [
+        1,
+        0,
+        0,
+        4,
+        0,
+        885,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        3,
+        1,
+        1,
+        0,
+        2,
+        4,
+        945,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1020,
+        1,
+        2
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        967,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        5,
+        3,
+        0,
+        1,
+        1,
+        998
+      ]
+    ]
+  },
+  "trainingSeconds": 423
+}
