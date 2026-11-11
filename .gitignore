@@ -33,3 +33,4 @@ Thumbs.db
 # training data (downloaded MNIST files)
 /tmp
 mnist
+.rocketride/
